@@ -1,0 +1,58 @@
+PepsiCo - Regional Sales Report
+
+Report Date: 2026-06-01
+Product: Pepsi
+Reporting Period: Q1-Q4 2025
+
+Executive Summary:
+- Total units sold (2025): 4,250,000
+- Total revenue (2025): $8,925,000
+- YoY growth vs 2024: +7.8%
+- Top performing region: North America (NA)
+
+Monthly Sales Snapshot (units sold):
+- 2025-01: 320000
+- 2025-02: 290000
+- 2025-03: 360000
+- 2025-04: 410000
+- 2025-05: 380000
+- 2025-06: 420000
+- 2025-07: 450000
+- 2025-08: 460000
+- 2025-09: 400000
+- 2025-10: 370000
+- 2025-11: 350000
+- 2025-12: 450000
+
+Quarterly KPIs:
+Q1: units=970000 revenue=$2,035,000 avg_price=$2.10
+Q2: units=1210000 revenue=$2,520,000 avg_price=$2.08
+Q3: units=1310000 revenue=$2,728,000 avg_price=$2.08
+Q4: units=1010000 revenue=$1,642,000 avg_price=$1.62
+
+Channels Breakdown (2025):
+- Retail (Grocery/Supermarkets): 58%
+- Wholesale (Distributors): 24%
+- Online / Direct: 12%
+- HORECA (Hotels/Restaurants/Cafes): 6%
+
+Top 5 Accounts (by revenue):
+1. National Supermarket Group — $1,250,000
+2. BigBox Wholesale Ltd — $900,000
+3. OnlineRetailer Inc — $650,000
+4. QuickServe Chains (franchise group) — $420,000
+5. Regional Distributor East — $310,000
+
+Promotions & Campaign Notes:
+- Summer "Pepsi Refresh" campaign (Jun-Aug) drove incremental uplift of +11% in online sales.
+- Price promotion in October at National Supermarket Group cannibalized margin but preserved volume.
+
+Inventory and Supply:
+- Average stockout incidents per month: 2
+- Lead time (supplier): 14 days
+
+Notes:
+- Forecast for H1 2026 remains bullish given promotional calendar and trade activity.
+
+Prepared by: Sales Insight Team
+Contact: sales-insights@company.example

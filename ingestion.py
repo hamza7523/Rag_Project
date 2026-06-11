@@ -6,6 +6,7 @@ os.environ["HF_HOME"] = r"E:/models/huggingface"
 os.environ["SENTENCE_TRANSFORMERS_HOME"] = r"E:/models/sentence_transformers"
 
 from langchain_community.document_loaders import PyPDFLoader, Docx2txtLoader
+from langchain.document_loaders import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import Chroma
@@ -21,10 +22,10 @@ def load_and_split_documents(chunk_size=1000, chunk_overlap=200):
     all_chunks = []
     docs_path = Path(DOCS_DIR)
 
-    supported_files = list(docs_path.glob("*.pdf")) + list(docs_path.glob("*.docx"))
+    supported_files = list(docs_path.glob("*.pdf")) + list(docs_path.glob("*.docx")) + list(docs_path.glob("*.txt"))
 
     if not supported_files:
-        print(f"No PDF or DOCX files found in {DOCS_DIR}")
+        print(f"No supported files (PDF/DOCX/TXT) found in {DOCS_DIR}")
         return []
 
     for file_path in supported_files:
@@ -34,6 +35,8 @@ def load_and_split_documents(chunk_size=1000, chunk_overlap=200):
             loader = PyPDFLoader(str(file_path))
         elif file_path.suffix == ".docx":
             loader = Docx2txtLoader(str(file_path))
+        elif file_path.suffix == ".txt":
+            loader = TextLoader(str(file_path), encoding='utf-8')
 
         documents = loader.load()
 

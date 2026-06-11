@@ -1,0 +1,32 @@
+Marinda - Corporate Sales Intelligence
+
+Report Date: 2026-06-01
+Product: Marinda
+Reporting Period: 2025
+
+Overview:
+- Units sold: 1,580,000
+- Total revenue: $2,842,000
+- YoY: +12.5% (strong growth in emerging markets)
+
+Monthly Performance (selected months):
+- 2025-03: 110000 units (Easter campaigns)
+- 2025-06: 125000 units (Summer push)
+- 2025-09: 140000 units (Back-to-school promotions)
+
+Customer Segments:
+- Modern Trade (retail chains): 45%
+- Traditional Trade (kirana/local): 30%
+- Foodservice: 15%
+- E-commerce: 10%
+
+Risk Indicators:
+- Return rate: 0.8% (mainly damaged shipments)
+- Declining velocity in Region West (Q4) — investigate pricing and in-store placement
+
+Strategic Notes:
+- Pilot loyalty program with top 50 accounts to secure replenishment frequency.
+- Consider bundling Marinda with snack SKUs in convenience channels.
+
+Prepared by: Corporate Sales Analytics
+Contact: corp-sales@company.example

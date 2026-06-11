@@ -1,0 +1,38 @@
+Mountain Dew - Sales & Accounts Summary
+
+Report Date: 2026-06-01
+Product: Dew
+Reporting Period: 2025 Full Year
+
+Summary:
+- Units sold: 2,100,000
+- Revenue: $4,410,000
+- YoY growth: +3.2%
+- Best performing channel: Convenience Stores
+
+Regional Monthly Averages (units):
+- North America: 95,000
+- Europe: 48,000
+- APAC: 30,000
+- LATAM: 22,000
+
+Key Performance Metrics:
+- Average Selling Price (ASP): $2.10
+- Return rate (units): 0.6%
+- Promotional uplift: Average +8% during campaigns
+
+Major Promotions 2025:
+- Q2 "Dew Boost" sampling at 4,500 convenience locations (Apr-May)
+- Q4 bundle with snack brand (Nov-Dec) — incremental revenue $220,000
+
+Supply & Distribution Notes:
+- Primary distribution partner: QuickMove Logistics
+- Typical on-shelf availability: 96.3%
+- Notable stockout: Europe regional distribution center (May 2025) — 3 days
+
+Insights & Actions:
+- Increase small-format pack SKUs to capture convenience store demand.
+- Run regional digital couponing in APAC to increase trial and conversion.
+
+Prepared by: Channel Sales Team
+Contact: channel-sales@company.example
