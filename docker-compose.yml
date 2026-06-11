@@ -1,0 +1,56 @@
+# docker-compose.yml
+# Defines two services: Prometheus and Grafana.
+# Running both together means one command starts your entire monitoring stack.
+
+version: "3.8"
+
+services:
+
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: prometheus
+    ports:
+      - "9090:9090"           # Prometheus UI at http://localhost:9090
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+      # Mounts your local prometheus.yml INTO the container at the path
+      # Prometheus expects its config. Changes to the file are reflected
+      # without rebuilding the container.
+      - prometheus_data:/prometheus
+      # Named volume for persistent storage — Prometheus's time-series data
+      # survives container restarts. Without this, all historical data
+      # is lost every time you restart the container.
+    command:
+      - "--config.file=/etc/prometheus/prometheus.yml"
+      - "--storage.tsdb.retention.time=7d"
+      # Keep 7 days of metrics. In production this is typically 15-30 days,
+      # with longer retention offloaded to object storage (Thanos, Cortex).
+    restart: unless-stopped
+    # Restart policy: restart automatically unless explicitly stopped.
+    # Interview note: in Kubernetes this is handled by pod restart policies,
+    # but for local Docker this prevents monitoring gaps after machine reboots.
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    ports:
+      - "3000:3000"           # Grafana UI at http://localhost:3000
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+      # Default credentials — change in production obviously.
+      # In real deployments these come from secrets management
+      # (Vault, AWS Secrets Manager, Kubernetes secrets).
+    volumes:
+      - grafana_data:/var/lib/grafana
+      # Persistent storage for dashboards, datasources, and user settings.
+      # Without this, every restart wipes your Grafana configuration.
+    depends_on:
+      - prometheus
+      # Ensures Prometheus starts before Grafana.
+      # Grafana needs Prometheus available to validate the datasource on startup.
+    restart: unless-stopped
+
+volumes:
+  prometheus_data:    # named volume managed by Docker — persists on host at
+  grafana_data:       # C:\Users\<you>\AppData\Local\Docker\volumes\ on Windows
