@@ -521,7 +521,7 @@ For issues, feature requests, or questions:
 
 ---
 
-**Last Updated:** 2026-06-11 | **Maintainer:** AI Engineering Team
+**Last Updated:** 2026-06-11 | **Maintainer:** Muhammad Hamza Zaman
 
 
 
