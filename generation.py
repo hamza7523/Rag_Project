@@ -4,7 +4,7 @@ os.environ["SENTENCE_TRANSFORMERS_HOME"] = r"E:/models/sentence_transformers"
 
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
-from retrieval import load_retriever, retrieve
+from retrieval import load_retriever, hybrid_retrieve
 import dotenv
 
 dotenv.load_dotenv()
@@ -23,7 +23,7 @@ llm = ChatOpenAI(
 )
 # ── Prompt Template ───────────────────────────────────────────────────────────
 prompt = ChatPromptTemplate.from_messages([
-    ("system", "You are a research assistant. Answer only using the provided context. If the answer is not in the context, say 'I don't know'. Do not make things up."),
+    ("system", "You are a research assistant. Answer only using the provided context. If the answer is not in the context, say 'I don't know'. Do not make things up. Do not infer, guess, or approximate numeric values. Only respond with numbers if they appear exactly in the provided context."),
     ("human",
      "Context:\n{context} Provide concise information only using the relevant information.\n\nQuestion: {question}")
 ])
@@ -39,14 +39,14 @@ def format_context(chunks):
 
 
 def answer(query, vectorstore, bm25_index, documents, metadatas):
-    chunks = retrieve(query, vectorstore, bm25_index, documents, metadatas, top_k=5)
-    
+    chunks = hybrid_retrieve(query, vectorstore, bm25_index, documents, metadatas, top_k=5, semantic_k=20)
+
     context = format_context(chunks)
     messages = prompt.format_messages(context=context, question=query)
     response = llm.invoke(messages)
     print("\nAnswer:")
     print(response.content)
-    return response.content,chunks
+    return response.content, chunks
 
 if __name__ == "__main__":
     vectorstore, bm25_index, documents, metadatas = load_retriever()

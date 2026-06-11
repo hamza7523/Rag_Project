@@ -1,14 +1,18 @@
-Mountain Dew - Sales & Accounts Summary
+Mountain Dew - 2025 Sales & Commercial Performance Report
 
 Report Date: 2026-06-01
 Product: Dew
-Reporting Period: 2025 Full Year
+Reporting Period: January 2025 to December 2025
 
-Summary:
-- Units sold: 2,100,000
-- Revenue: $4,410,000
+Executive Summary:
+- Total units sold: 2,100,000
+- Total revenue: $4,410,000
 - YoY growth: +3.2%
 - Best performing channel: Convenience Stores
+- Strategic recommendation: expand small-format pack distribution and deploy loyalty-based incentives in key APAC markets.
+
+Regional Performance Overview:
+Dew strengthened its presence in North America and Europe while noting emerging growth opportunities in APAC and LATAM. Urban convenience stores remain the core volume driver, while modern trade shows the highest incremental margin.
 
 Regional Monthly Averages (units):
 - North America: 95,000
@@ -16,23 +20,42 @@ Regional Monthly Averages (units):
 - APAC: 30,000
 - LATAM: 22,000
 
-Key Performance Metrics:
+Channel & Customer Mix:
+- Convenience Stores: 37%
+- Retail (Supermarkets and Grocery): 31%
+- E-commerce & Direct: 19%
+- Foodservice & HORECA: 13%
+
+Key Metrics and Operational Insights:
 - Average Selling Price (ASP): $2.10
-- Return rate (units): 0.6%
-- Promotional uplift: Average +8% during campaigns
+- Return rate: 0.6% of units shipped
+- Promotional uplift: average incremental lift of +8% during Q2 and Q4 campaigns
+- On-shelf availability: 96.3%
 
-Major Promotions 2025:
-- Q2 "Dew Boost" sampling at 4,500 convenience locations (Apr-May)
-- Q4 bundle with snack brand (Nov-Dec) — incremental revenue $220,000
+Seasonal Promotion Review:
+- Q2 "Dew Boost" sampling initiative deployed in 4,500 convenience locations, generating a 6% pipeline conversion and an incremental revenue contribution of $180,000.
+- Q3 sports-event retail displays increased sales velocity by 9% in North America.
+- Q4 snack bundle program with a national foodservice partner delivered $220,000 additional revenue and improved visibility in impulse channels.
 
-Supply & Distribution Notes:
-- Primary distribution partner: QuickMove Logistics
-- Typical on-shelf availability: 96.3%
-- Notable stockout: Europe regional distribution center (May 2025) — 3 days
+Logistics & Supply Chain Notes:
+- Primary distribution partner: QuickMove Logistics.
+- Inventory turns in core accounts improved by 2.1x versus 2024.
+- Stockout incident: Europe RDC experienced a 3-day stockout in May 2025 due to inbound logistics delays.
+- Recommended mitigation: implement dual-path replenishment for high velocity SKUs and increase safety stock in APAC.
 
-Insights & Actions:
-- Increase small-format pack SKUs to capture convenience store demand.
-- Run regional digital couponing in APAC to increase trial and conversion.
+Customer & Account Intelligence:
+- Top accounts by revenue: RapidMart Convenience, SuperValue Express, CityCorner Grocers, MetroFuel, and UrbanExpress.
+- High-value accounts report demand for better POS placement and refrigerated shelf prioritization.
+- Recommendation: extend trade support to top 15 accounts with a dedicated merchandising operations team.
 
-Prepared by: Channel Sales Team
+Insights & Strategic Actions:
+- Expand the 250ml and 330ml small-format pack range in convenience stores to capture share from smaller independent retailers.
+- Test a digital coupon campaign in APAC for Q1 2026, focused on first-time buyers and repeat purchasers.
+- Evaluate price optimization in Europe for value packs to protect margin while maintaining competitive positioning.
+
+Appendix:
+- New account growth: 18 net new convenience chain contracts in FY2025.
+- Suggested focus for 2026: strengthen freshness messaging and commercial coordination with beverage distributors.
+
+Prepared by: Channel Sales Intelligence
 Contact: channel-sales@company.example

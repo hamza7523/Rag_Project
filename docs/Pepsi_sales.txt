@@ -1,58 +1,69 @@
-PepsiCo - Regional Sales Report
+PepsiCo - Regional Sales Sales Intelligence Report
 
 Report Date: 2026-06-01
 Product: Pepsi
-Reporting Period: Q1-Q4 2025
+Reporting Period: January 2025 to December 2025
 
 Executive Summary:
-- Total units sold (2025): 4,250,000
-- Total revenue (2025): $8,925,000
-- YoY growth vs 2024: +7.8%
-- Top performing region: North America (NA)
+- Total units sold for FY2025: 4,250,000
+- Total revenue for FY2025: $8,925,000
+- Year-over-year growth vs FY2024: +7.8%
+- Primary growth driver: Northeast retail programs and key account expansion in North America (NA)
 
-Monthly Sales Snapshot (units sold):
-- 2025-01: 320000
-- 2025-02: 290000
-- 2025-03: 360000
-- 2025-04: 410000
-- 2025-05: 380000
-- 2025-06: 420000
-- 2025-07: 450000
-- 2025-08: 460000
-- 2025-09: 400000
-- 2025-10: 370000
-- 2025-11: 350000
-- 2025-12: 450000
+Market Performance & Channel Trends:
+The Pepsi portfolio performed strongly in grocery and modern trade, with retail channel contribution growing from 53% in 2024 to 58% in 2025. Convenience store penetration also improved after localized merchandising support and cooler refurbishment programs.
 
-Quarterly KPIs:
-Q1: units=970000 revenue=$2,035,000 avg_price=$2.10
-Q2: units=1210000 revenue=$2,520,000 avg_price=$2.08
-Q3: units=1310000 revenue=$2,728,000 avg_price=$2.08
-Q4: units=1010000 revenue=$1,642,000 avg_price=$1.62
+Monthly Sales Snapshot (units):
+- 2025-01: 320,000
+- 2025-02: 290,000
+- 2025-03: 360,000
+- 2025-04: 410,000
+- 2025-05: 380,000
+- 2025-06: 420,000
+- 2025-07: 450,000
+- 2025-08: 460,000
+- 2025-09: 400,000
+- 2025-10: 370,000
+- 2025-11: 350,000
+- 2025-12: 450,000
 
-Channels Breakdown (2025):
-- Retail (Grocery/Supermarkets): 58%
-- Wholesale (Distributors): 24%
-- Online / Direct: 12%
-- HORECA (Hotels/Restaurants/Cafes): 6%
+Quarterly Financial KPIs:
+Q1: units=970,000 revenue=$2,035,000 avg_price=$2.10 margin=22.4%
+Q2: units=1,210,000 revenue=$2,520,000 avg_price=$2.08 margin=21.9%
+Q3: units=1,310,000 revenue=$2,728,000 avg_price=$2.08 margin=22.1%
+Q4: units=1,010,000 revenue=$1,642,000 avg_price=$1.62 margin=19.8%
 
-Top 5 Accounts (by revenue):
+Regional Performance:
+- North America: 48% of total units, driven by new distribution agreement with MetroGrocers.
+- Europe: 27% of total units, with margin compression due to increased trade spending.
+- APAC: 15% of total units, led by brand awareness investments in urban outlets.
+- LATAM: 10% of total units, growth supported by promotional bundles and localized flavors.
+
+Top Accounts by Revenue:
 1. National Supermarket Group — $1,250,000
 2. BigBox Wholesale Ltd — $900,000
 3. OnlineRetailer Inc — $650,000
 4. QuickServe Chains (franchise group) — $420,000
 5. Regional Distributor East — $310,000
 
-Promotions & Campaign Notes:
-- Summer "Pepsi Refresh" campaign (Jun-Aug) drove incremental uplift of +11% in online sales.
-- Price promotion in October at National Supermarket Group cannibalized margin but preserved volume.
+Promotions & Marketing:
+- The Summer "Pepsi Refresh" campaign (June-August) delivered +11% incremental lift in online sales and +6% lift across modern trade.
+- October distributor trade deals at National Supermarket Group increased shelf share, though promotional margins declined by 160 bps.
+- December holiday display program produced a 9% lift in seasonal pack velocity across the Southeast region.
 
-Inventory and Supply:
-- Average stockout incidents per month: 2
-- Lead time (supplier): 14 days
+Supply Chain & Inventory Insights:
+- Average supplier lead time remained consistent at 14 days.
+- Average stockout incidents per month were 2, primarily in Central warehouse during June due to high promotional demand.
+- Planogram compliance in major accounts was 88%, with the highest non-compliance observed in quick-serve channels.
 
-Notes:
-- Forecast for H1 2026 remains bullish given promotional calendar and trade activity.
+Operational Actions:
+- Increase SKU support for 330ml and 500ml formats in retail chains, where volume grew fastest.
+- Introduce 12-week secondary display program for key accounts in Q3 2026.
+- Monitor pricing elasticity in Europe and consider a 2% price optimization in Q1 2026.
 
-Prepared by: Sales Insight Team
+Appendix: Customer Feedback Summary
+- Top reported issues: cooler visibility and seasonal price perception.
+- Recommended next steps: raise trade marketing investment in convenience stores and refresh digital coupon programs.
+
+Prepared by: Global Sales Analytics Team
 Contact: sales-insights@company.example

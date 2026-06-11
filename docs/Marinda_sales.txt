@@ -1,32 +1,61 @@
-Marinda - Corporate Sales Intelligence
+Marinda - Corporate Sales Intelligence Report
 
 Report Date: 2026-06-01
 Product: Marinda
-Reporting Period: 2025
+Reporting Period: January 2025 to December 2025
 
-Overview:
-- Units sold: 1,580,000
+Executive Summary:
+- Total units sold: 1,580,000
 - Total revenue: $2,842,000
-- YoY: +12.5% (strong growth in emerging markets)
+- Year-over-year growth: +12.5%
+- Growth driver: emerging market expansion and mid-tier modern trade activation
+- Primary recommendation: optimize pricing and shelf placement in Region West while scaling direct-to-account loyalty initiatives.
+
+Performance Highlights:
+Marinda delivered strongest performance in modern trade channels, supported by targeted shopper activations and channel-specific trade funds. Emerging markets accounted for 38% of volume growth and remain the highest upside opportunity in the 2026 plan.
 
 Monthly Performance (selected months):
-- 2025-03: 110000 units (Easter campaigns)
-- 2025-06: 125000 units (Summer push)
-- 2025-09: 140000 units (Back-to-school promotions)
+- 2025-03: 110,000 units (Easter campaigns)
+- 2025-06: 125,000 units (Summer push)
+- 2025-09: 140,000 units (Back-to-school promotions)
+- 2025-11: 132,000 units (pre-holiday discount program)
 
-Customer Segments:
-- Modern Trade (retail chains): 45%
-- Traditional Trade (kirana/local): 30%
-- Foodservice: 15%
-- E-commerce: 10%
+Customer Segment Mix:
+- Modern Trade / Retail Chains: 45%
+- Traditional Trade (kirana/local stores): 30%
+- Foodservice & HORECA: 15%
+- E-commerce and Direct B2B: 10%
 
-Risk Indicators:
-- Return rate: 0.8% (mainly damaged shipments)
-- Declining velocity in Region West (Q4) — investigate pricing and in-store placement
+Regional Contribution:
+- Region East: 34% of total volume
+- Region South: 28%
+- Region West: 21%
+- Region North: 17%
 
-Strategic Notes:
-- Pilot loyalty program with top 50 accounts to secure replenishment frequency.
-- Consider bundling Marinda with snack SKUs in convenience channels.
+Risk Indicators and Operational Issues:
+- Return rate: 0.8% (predominantly damaged shipments in transit)
+- Declining velocity in Region West during Q4, linked to underperforming secondary space and promotional cadence.
+- Distributor fill rate in Region West fell to 91% in November, prompting an immediate corrective plan.
+
+Strategic Initiatives & Opportunities:
+- Launch a pilot loyalty program with the top 50 accounts to secure replenishment frequency and trade support.
+- Bundle Marinda with high-velocity snack SKUs in convenience channels to increase basket size and trial rates.
+- Deepen engagement with regional sales teams through a quarterly commercial review process focused on outlet-level distribution.
+
+Marketing and Promotions Review:
+- The FY2025 "Marinda Momentum" campaign delivered a 10% lift in category awareness within selected urban clusters.
+- Co-branded in-store activations with QSR partners contributed to a 7% incremental boost in foodservice demand.
+- Digital marketing support for loyalty offers generated a 15% click-through rate among registered buyers.
+
+Account-Level Planning:
+- Top accounts by revenue: CityRetail Express, FreshMart Chain, CornerShop Partners, OfficeCafe Distributors, and HyperValue Stores.
+- Account-specific concerns: trade fund execution, display restocking, and cooler visibility in on-premise outlets.
+- Action: assign a dedicated field merchandiser to the top 12 accounts for Q3 2026.
+
+Supply & Logistics:
+- Average lead time: 18 days for export orders, 12 days for domestic replenishment.
+- Recommended buffer stock increase: 10% for Region West due to increased delivery volatility.
+- Warehouse-to-store cycle time improved by 1 day after implementing route optimization with distributors.
 
 Prepared by: Corporate Sales Analytics
 Contact: corp-sales@company.example

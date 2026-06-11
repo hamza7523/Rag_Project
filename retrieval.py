@@ -7,6 +7,7 @@ import nltk
 from langchain_community.vectorstores import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 from rank_bm25 import BM25Okapi
+from retrieval_utils import hybrid_rerank_candidates, build_brand_metadata_filter
 
 nltk.download("punkt", quiet=True)
 nltk.download("stopwords", quiet=True)
@@ -19,7 +20,7 @@ import dotenv
 dotenv.load_dotenv()  # Load environment variables from .env file
 
 CHROMA_DIR = r"E:/Rag_Project/chroma_db"
-COLLECTION_NAME = "fedadapriv"
+COLLECTION_NAME = "beverage_sales"
 
 # ── load once, reuse everywhere ──────────────────────────────────────────────
 def load_retriever():
@@ -107,6 +108,41 @@ def retrieve(query, vectorstore, bm25_index, documents, metadatas, top_k=5, k=No
         {"content": content, "metadata": data["metadata"]}
         for content, data in fused[:top_k]
     ]
+
+
+def hybrid_retrieve(
+    query,
+    vectorstore,
+    bm25_index,
+    documents,
+    metadatas,
+    metadata_filter: dict = None,
+    top_k: int = 5,
+    semantic_k: int = 20,
+):
+    """Hybrid retrieval: semantic search -> metadata filter -> exact-match re-rank.
+
+    - Run semantic search to get candidate chunks.
+    - Apply `metadata_filter` (if provided) to narrow candidates.
+    - Re-rank candidates using `hybrid_rerank_candidates` which boosts
+      exact numeric matches and token overlap.
+    """
+
+    semantic_results = semantic_search(query, vectorstore, k=semantic_k)
+
+    brand_filter = build_brand_metadata_filter(query)
+    effective_filter = metadata_filter or brand_filter
+    if metadata_filter and brand_filter:
+        effective_filter = {**metadata_filter, **brand_filter}
+
+    # hybrid_rerank_candidates expects semantic_results list of dicts
+    final = hybrid_rerank_candidates(
+        semantic_results,
+        query,
+        metadata_filter=effective_filter,
+        top_k=top_k,
+    )
+    return final
 
 
 
